@@ -5,9 +5,9 @@ int main(){
     int pid = fork();
 
     if (pid == 0){
-        printf("Soy el proceso hijo");
+        printf("Soy el proceso hijo\n");
     } else{
-        printf("Soy el padre y mi hijo es %d,", pid);
+        printf("Soy el padre y mi hijo es %d\n", pid);
     }
 
     return 0;
